@@ -12,12 +12,12 @@ spring.jpa:
     hibernate:
       format_sql: true
 
-
+image.url=localhost:8080?fileName=
 
   cloud:
     config:
       server:
         git:
-          uri: file:///home/nich/Documents/git-local-config-repo
+          uri: file:///home/sythorng/Documents/git-local-config-repo
   server:
     port: 8082
