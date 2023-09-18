@@ -12,7 +12,7 @@ spring.jpa:
     hibernate:
       format_sql: true
 
-image.url=localhost:8080?fileName=
+image.url: localhost:8080?fileName=
 
   cloud:
     config:
