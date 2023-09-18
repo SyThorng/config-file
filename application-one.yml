@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 1234
+
+spring.jpa:
+  database: POSTGRESQL
+  hibernate.ddl-auto: update
+  show-sql: true
+  properties:
+    hibernate:
+      format_sql: true
+
+
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///home/nich/Documents/git-local-config-repo
+  server:
+    port: 8082
