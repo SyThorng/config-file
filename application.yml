@@ -1,4 +1,4 @@
-image.url: localhost:8080?fileName=
+image.url: localhost:8080?fileName=kznxckcx
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
